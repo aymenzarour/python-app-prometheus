@@ -39,8 +39,8 @@ The `app.py` file contains the following functionalities:
 To view application metrics on Grafana through Prometheus, follow these steps:
 
 1. Access the Grafana dashboard.
-2. Navigate to the home page of Grafana.
-3. To explore metrics, create a new query:
+2. Navigate to the explore page of Grafana.
+3. create a new query:
    - Select the label "app".
    - Set the value to "python-app".
    - Optionally, configure the query to run every 5 seconds for real-time monitoring.
