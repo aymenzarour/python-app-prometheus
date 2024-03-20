@@ -21,7 +21,7 @@ spec:
       containers:
         - name: python-app-container
           imagePullPolicy: Always
-          image: nginx:latest
+          image: aymenzarour/python-app:latest
           ports:
             - containerPort: 5000
           env:
